@@ -1,7 +1,12 @@
+//https://golang.org/doc/code.html
+
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/WerYH/weRCloud-Go-Experiments/hello/morestrings"
+)
 
 func main() {
-	fmt.Println("Hello, world.")
+	fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
 }
